@@ -1,0 +1,841 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/utilities.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <header>
+      <nav id="main-nav" class="navbar">
+        <ul class="navbar_first">
+          <li>
+            <a href="" class="navbar_logo">
+              <span>S</span>
+              <h2>Shopka</h2>
+            </a>
+          </li>
+          <li><a href="">Sell on Shopka</a></li>
+          <li><a href="">Register</a></li>
+        </ul>
+        <div class="navbar_between">
+          <div class="navbar_input">
+            <img class="navbar_input-search" src="./image/Vector.svg" alt="" />
+            <input type="text" />
+            <img src="./image/icon_close.svg" alt="" />
+          </div>
+          <div>
+            <a href="#">Consumer Electronics</a>
+          </div>
+        </div>
+        <div class="navbar_last">
+          <a href="" class="btn btn-blue"> Sign in </a>
+          <a href="" class="btn btn_shadow"> My cart </a>
+          <div>
+            <img src="./image/edward_powlowski.png" alt="" />
+          </div>
+        </div>
+        <span class="header-icon header-icon-list"
+          ><i class="fas fa-list"></i>
+        </span>
+      </nav>
+      <div class="list-map">
+        <div class="list-map-container">
+          <a class="list-map-close"><i class="far fa-window-close"></i></a>
+          <div class="navbar_between-mobile">
+            <div class="navbar_input-mobile">
+              <img
+                class="navbar_input-search"
+                src="./image/Vector.svg"
+                alt=""
+              />
+              <input type="text" />
+              <img src="./image/icon_close.svg" alt="" />
+            </div>
+            <ul class="navbar_first-mobile">
+              <li><a href="#">Consumer Electronics</a></li>
+              <li><a href="">Sell on Shopka</a></li>
+              <li><a href="">Register</a></li>
+            </ul>
+          </div>
+          <div class="navbar_last-mobile">
+            <a href="" class="btn btn-blue"> Sign in </a>
+            <a href="" class="btn btn_shadow"> My cart </a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div class="container">
+      <div class="category">
+        <div class="item_category">
+          <img src="./image/hanger.svg" alt="" />
+          <span>Clothing & Shoes</span>
+        </div>
+        <div class="item_category">
+          <img src="./image/cinema.svg" alt="" />
+          <span>Entertainment</span>
+        </div>
+        <div class="item_category">
+          <img src="./image/concert.svg" alt="" />
+          <span>Music</span>
+        </div>
+        <div class="item_category">
+          <img src="./image/fitness.svg" alt="" />
+          <span>Sport & Lifestyle</span>
+        </div>
+        <div class="item_category">
+          <img src="./image/pets.svg" alt="" />
+          <span>Pets</span>
+        </div>
+        <div class="item_category">
+          <img src="./image/fitness.svg" alt="" />
+          <span>Kitchen Accessories</span>
+        </div>
+        <div class="item_category">
+          <img src="./image/concert.svg" alt="" />
+          <span>Travel Equipment</span>
+        </div>
+        <div class="item_category">
+          <img src="./image/pets.svg" alt="" />
+          <span>Growing & Garden</span>
+        </div>
+        <div class="item_category">
+          <img src="./image/concert.svg" alt="" />
+          <span>Electrical Tools</span>
+        </div>
+        <div class="item_category">
+          <img src="./image/fitness.svg" alt="" />
+          <span>Mother Care</span>
+        </div>
+        <div class="item_category">
+          <img src="./image/concert.svg" alt="" />
+          <span>Toys & Entertainment</span>
+        </div>
+        <div class="item_category">
+          <img src="./image/fitness.svg" alt="" />
+          <span>Vintage</span>
+        </div>
+      </div>
+      <div class="container_department">
+        <div class="container_menu">
+          <div class="container_menu-top">
+            <img src="./image/filter-variant.svg" alt="" />
+            <span>Departments</span>
+          </div>
+          <div class="container_menu-list">
+            <div class="sidebar">
+              <div class="nav_list">
+                <div class="nav_item">
+                  <div class="nav_item-img">
+                    <img src="./image/chevron-right.svg" alt="" />
+                  </div>
+                  <div class="nav_item-patterns">
+                    <a href="#">
+                      <h3 class="links_name">All Categories</h3>
+                    </a>
+                    <span class="tooltip">Ecommerce patterns</span>
+                  </div>
+                </div>
+                <div class="nav_item">
+                  <div class="nav_item-img">
+                    <img src="./image/chevron-down.svg" alt="" />
+                  </div>
+                  <div class="nav_item-patterns">
+                    <a href="#">
+                      <h3 class="links_name">Electronics</h3>
+                    </a>
+                  </div>
+                </div>
+                <div class="nav_item icon_down-top">
+                  <div class="nav_item-img">
+                    <img src="./image/chevron-down.svg" alt="" />
+                  </div>
+                  <div class="nav_item-patterns">
+                    <a href="#" class="icon-down">
+                      <h3 class="links_name">All Categories</h3>
+                    </a>
+                    <span class="tooltip mg-10">Cell Phone Accessories</span>
+                    <span class="tooltip mg-10">Cell Phone Gatgets</span>
+                    <span class="tooltip mg-10">Applications</span>
+                    <span class="tooltip mg-10">Smart Watches</span>
+                    <span class="tooltip mg-10">Ecommerce patterns</span>
+                    <a href="#" class="icon-down mg-10 btn btn_grey width-80">
+                      <h3 class="links_name">Show more</h3>
+                      <i class="fa-solid fa-angle-down"></i>
+                    </a>
+                  </div>
+                </div>
+                <div class="nav_item">
+                  <div class="nav_item-img">
+                    <img src="./image/chevron-right.svg" alt="" />
+                  </div>
+                  <div class="nav_item-patterns">
+                    <a href="#">
+                      <h3 class="links_name">Electronics</h3>
+                    </a>
+                  </div>
+                </div>
+                <div class="nav_item">
+                  <div class="nav_item-img">
+                    <img src="./image/chevron-right.svg" alt="" />
+                  </div>
+                  <div class="nav_item-patterns">
+                    <a href="#">
+                      <h3 class="links_name">All Categories</h3>
+                    </a>
+                    <span class="tooltip">Ecommerce patterns</span>
+                  </div>
+                </div>
+                <div class="nav_item">
+                  <div class="nav_item-img">
+                    <img src="./image/chevron-right.svg" alt="" />
+                  </div>
+                  <div class="nav_item-patterns">
+                    <a href="#">
+                      <h3 class="links_name">Consumer Electroinics</h3>
+                    </a>
+                  </div>
+                </div>
+                <div class="nav_item">
+                  <div class="nav_item-img">
+                    <img src="./image/chevron-right.svg" alt="" />
+                  </div>
+                  <div class="nav_item-patterns">
+                    <a href="#">
+                      <h3 class="links_name">Home & Garden</h3>
+                    </a>
+                  </div>
+                </div>
+                <div class="nav_item">
+                  <div class="nav_item-img">
+                    <img src="./image/chevron-right.svg" alt="" />
+                  </div>
+                  <div class="nav_item-patterns">
+                    <a href="#">
+                      <h3 class="links_name">Collectibles</h3>
+                    </a>
+                  </div>
+                </div>
+                <div class="nav_item width_not-icon">
+                  <a href="#" class="btn btn_grey">
+                    <h3 class="links_name">Expand</h3>
+                  </a>
+                </div>
+                <div class="nav_item btn btn_shadow1 mg-40">
+                  <div class="nav_item-patterns">
+                    <a href="#">
+                      <h3 class="links_name">Collapsed filters</h3>
+                    </a>
+                  </div>
+                  <div class="nav_item-img">
+                    <img src="./image/chevron-down.svg" alt="" />
+                  </div>
+                </div>
+
+                <div class="nav_item icon_down-top accordion_item">
+                  <div class="nav_item-patterns">
+                    <a href="#">
+                      <h3 class="links_name">Expanded Filters</h3>
+                    </a>
+                    <div class="display-flex mg-10">
+                      <input type="checkbox" name="" id="" class="checkbox" />
+                      <span>Recommended</span>
+                    </div>
+                    <div class="display-flex mg-10">
+                      <input type="checkbox" name="" id="" class="checkbox" />
+                      <span>Recently Added</span>
+                    </div>
+                    <div class="display-flex mg-10">
+                      <input type="checkbox" name="" id="" class="checkbox" />
+                      <span>Expiring Soon</span>
+                    </div>
+                    <div class="display-flex mg-10">
+                      <input type="checkbox" name="" id="" class="checkbox" />
+                      <span>Most Rated</span>
+                    </div>
+                    <div class="display-flex mg-10">
+                      <input type="checkbox" name="" id="" class="checkbox" />
+                      <span>Price: Low → High</span>
+                    </div>
+                    <div class="display-flex mg-10">
+                      <input type="checkbox" name="" id="" class="checkbox" />
+                      <span>Price: High → Low</span>
+                    </div>
+                  </div>
+                  <div class="nav_item-img">
+                    <img src="./image/chevron-down.svg" alt="" />
+                  </div>
+                </div>
+
+                <div class="nav_item icon_down-top accordion_item">
+                  <div class="nav_item-patterns">
+                    <a href="#">
+                      <h3 class="links_name">Year of manufacturing</h3>
+                    </a>
+                    <div class="display-flex mg-10">
+                      <input type="checkbox" name="" id="" class="checkbox" />
+                      <span>1954</span>
+                    </div>
+                    <div class="display-flex mg-10">
+                      <input type="checkbox" name="" id="" class="checkbox" />
+                      <span>1955</span>
+                    </div>
+                    <div class="display-flex mg-10">
+                      <input type="checkbox" name="" id="" class="checkbox" />
+                      <span>1956</span>
+                    </div>
+                    <div class="display-flex mg-10">
+                      <input type="checkbox" name="" id="" class="checkbox" />
+                      <span>1957</span>
+                    </div>
+                    <div class="display-flex mg-10">
+                      <input type="checkbox" name="" id="" class="checkbox" />
+                      <span>1958</span>
+                    </div>
+                    <div class="display-flex mg-10">
+                      <input type="checkbox" name="" id="" class="checkbox" />
+                      <span>1959</span>
+                    </div>
+                    <div class="display-flex mg-10">
+                      <input type="checkbox" name="" id="" class="checkbox" />
+                      <span>1960</span>
+                    </div>
+                    <div class="display-flex mg-10">
+                      <input type="checkbox" name="" id="" class="checkbox" />
+                      <span>1961</span>
+                    </div>
+                    <div class="display-flex mg-10">
+                      <input type="checkbox" name="" id="" class="checkbox" />
+                      <span>1962-2020</span>
+                    </div>
+                  </div>
+                  <div class="nav_item-img">
+                    <img src="./image/chevron-down.svg" alt="" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container_right">
+          <div class="bd_pd">
+            <div class="container_right-top">
+              <div class="display_flex-space">
+                <div class="right_top-sort">
+                  <a href="#" class="icon-down btn">
+                    <h3 class="links_name">Useless first</h3>
+                    <i class="fa-solid fa-angle-down"></i>
+                  </a>
+                  <a href="#" class="icon-down btn">
+                    <h3 class="links_name">Condition</h3>
+                    <i class="fa-solid fa-angle-down"></i>
+                  </a>
+                  <a href="#" class="icon-down btn">
+                    <h3 class="links_name">Delivery options</h3>
+                    <i class="fa-solid fa-angle-down"></i>
+                  </a>
+                </div>
+                <div class="right_top-show">
+                  <div class="right_top-show-item">
+                    <a href="#" class="btn btn_grey">
+                      <h3 class="links_name">Show all</h3>
+                    </a>
+                    <a href="#" class="btn btn_default">
+                      <h3 class="links_name">Auction</h3>
+                    </a>
+                    <a href="#" class="btn btn_grey">
+                      <h3 class="links_name">Buy now</h3>
+                    </a>
+                  </div>
+                  <div class="right_top-show-item">
+                    <a href="#" class="btn btn_grey">
+                      <img src="./image/view-list.svg" alt="" />
+                    </a>
+                    <a href="#" class="btn btn_default">
+                      <img src="./image/view-grid.svg" alt="" />
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="display-flex container_right-related">
+                <span>Related</span>
+                <span class="text_related">worldwide shipping</span>
+                <span class="text_related">under $50</span>
+                <span class="text_related">kitten</span>
+                <span class="text_related">plastic plugs</span>
+                <span class="text_related">pucker shoes</span>
+                <span class="text_related">vintage typewriter</span>
+              </div>
+            </div>
+            <div class="container_products">
+              <div class="product_item">
+                <div class="product_item-img">
+                  <img src="./image/product-1.png" alt="" />
+                </div>
+                <h3>
+                  Vintage Typewriter to post awesome stories about UI design and
+                  webdev.
+                </h3>
+                <h1>$49.50</h1>
+                <span>Eligible for Shipping To Mars or somewhere else</span>
+                <div class="product_item-evaluate">
+                  <div class="product_item-vote">
+                    <div class="product_item-rating">
+                      <img src="./image/star.svg" alt="" srcset="" />
+                      <img src="./image/star.svg" alt="" srcset="" />
+                      <img src="./image/star.svg" alt="" srcset="" />
+                      <img src="./image/star.svg" alt="" srcset="" />
+                      <img
+                        class="star"
+                        src="./image/star1.svg"
+                        alt=""
+                        srcset=""
+                      />
+                    </div>
+                    <span>4.9</span>
+                  </div>
+                  <div class="product_item-watch btn btn-blue">
+                    <img src="./image/heart.svg" alt="" />
+                    <span>Watch</span>
+                  </div>
+                </div>
+              </div>
+              <div class="product_item">
+                <div class="product_item-img">
+                  <img
+                    src="https://s3-alpha-sig.figma.com/img/6eed/38f3/6c4e62d636b7857cd3f736a982695a5c?Expires=1659312000&Signature=Vw6~uORGU1cJ6fVaqiJEzJELorl84TQ7Jf09EBzyhC8pwjW8CuBGWuXG5xtuguXMFdsWEPlm91layCSlIq5TEqKf9tV5CMbuHiq9rNfBFq0FtysII960ECTRZb2XQaRseypmDVhNd3C2RlX9BsrLG09n1nYuMRMp2UvEgxF1bhVnj-BO39hLI3qcLvX2UMKuQfCbD9ZQhJLE7qgnDOTlBRpXcDXGv9kzg6UkjAJynHnSQtnG~kp~VI~PmYVJoktKzqyjm0MVjYgHm7AMxToNX0F68qujd0pN5dWHh7euNZ8v0~wiBAVOFArDzMA9wCmDKxVU9xbDzA6ayN41rHMx1A__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA"
+                    alt=""
+                  />
+                </div>
+                <h3>
+                  Lee Pucker design. Leather botinki for handsome designers.
+                  Free shipping.
+                </h3>
+                <h1>$13.95</h1>
+                <span>1258 bids, 359 watchers $5.95 for shipping</span>
+                <div class="product_item-evaluate">
+                  <div class="product_item-vote">
+                    <div class="product_item-rating">
+                      <img src="./image/star.svg" alt="" srcset="" />
+                      <img src="./image/star.svg" alt="" srcset="" />
+                      <img src="./image/star.svg" alt="" srcset="" />
+                      <img src="./image/star.svg" alt="" srcset="" />
+                      <img
+                        class="star"
+                        src="./image/star1.svg"
+                        alt=""
+                        srcset=""
+                      />
+                    </div>
+                    <span>4.9</span>
+                  </div>
+                  <div class="product_item-watch btn btn-blue">
+                    <img src="./image/heart.svg" alt="" />
+                    <span>Watch</span>
+                  </div>
+                </div>
+              </div>
+              <div class="product_item">
+                <div class="product_item-img">
+                  <img
+                    src="https://s3-alpha-sig.figma.com/img/2bc4/ec4b/2712bddc914d8df3d871353015dd5499?Expires=1659312000&Signature=XMCVIpCe5o9Mn-NK91ouoeZvPbNQ3VXvQO5gu~gipHrxlXVmJgKwpyZUxFR9zUe4JULrMf4jUPgRRXiCXhf1INhA-wgs198e~xI9tWN5aSTrmimNbK~z75lXxpA56uhOIQWddQWKGqixER55G6we5cpeNk0IhSpbbvs~w5quaVgsYhPbhTeMxjstU6OItDMSivSZGTxtCaxphpTkmPVWVZwHcG3oihVd457EZL675FhF9HpiQh3HzKm~kQBDHbEm-QRM5U-CMxDs0nMwyUMKuhJIScWyf0EEOkXiurCOW~DTu0aM4RLxI65OC88ghMrdBKlON3k1R8UIvnbunJC00g__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA"
+                    alt=""
+                  />
+                </div>
+                <h3>
+                  Timesaving kitten to save months on development. Playful,
+                  cute, cheap!
+                </h3>
+                <h1>$128.99</h1>
+                <span>Eligible for nothing :(</span>
+                <div class="product_item-evaluate">
+                  <div class="product_item-vote">
+                    <div class="product_item-rating">
+                      <img src="./image/star.svg" alt="" srcset="" />
+                      <img src="./image/star.svg" alt="" srcset="" />
+                      <img src="./image/star.svg" alt="" srcset="" />
+                      <img src="./image/star.svg" alt="" srcset="" />
+                      <img
+                        class="star"
+                        src="./image/star1.svg"
+                        alt=""
+                        srcset=""
+                      />
+                    </div>
+                    <span>4.9</span>
+                  </div>
+                  <div class="product_item-watch btn btn-blue">
+                    <img src="./image/heart.svg" alt="" />
+                    <span>Watch</span>
+                  </div>
+                </div>
+              </div>
+              <div class="product_item">
+                <div class="product_item-img">
+                  <img
+                    src="https://s3-alpha-sig.figma.com/img/0725/b41b/2c76aed644960a6054e9a33a36cd469c?Expires=1659312000&Signature=XK~0JJd1CRGwzHL66xxp4XBU19eYbaMBFo0LMWAH6r6Div0yetpqNXDDC18V1lT~IKoH3ShgkFxNjbzOqmu5CizfliS22AGAi6zuQXj~rtA8t3J81l7sOPG6luOobc48b5PUPa1IeBn74fRWMoNlN2lcQINsiRCQiWpbzIpUoPfNrGDx~7C7GdADXZmSNm8ZRU0qi0VVxLFwysxrrZphGKyFIAHnZTLFmSLh0Ld-g-kLYu7Zkqy2dyuy~KagG91U28jlkLrtQ-zgws9aD4dFKU3zl35aicxhyjaS0bf9syog1i3CUjirBB4sqtj6j-~coQ61wsGD5Puk~z5W09-NQg__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA"
+                    alt=""
+                  />
+                </div>
+                <h3>
+                  Plastic useless plugs and tubes for high-fidelity prototyping.
+                  Fit & Eat!
+                </h3>
+                <h1>$12.48</h1>
+                <span
+                  >Wordwide shitting available Buyers protection possible!</span
+                >
+                <div class="product_item-evaluate">
+                  <div class="product_item-vote">
+                    <div class="product_item-rating">
+                      <img src="./image/star.svg" alt="" srcset="" />
+                      <img src="./image/star.svg" alt="" srcset="" />
+                      <img src="./image/star.svg" alt="" srcset="" />
+                      <img src="./image/star.svg" alt="" srcset="" />
+                      <img
+                        class="star"
+                        src="./image/star1.svg"
+                        alt=""
+                        srcset=""
+                      />
+                    </div>
+                    <span>4.9</span>
+                  </div>
+                  <div class="product_item-watch btn btn-blue">
+                    <img src="./image/heart.svg" alt="" />
+                    <span>Watch</span>
+                  </div>
+                </div>
+              </div>
+              <div class="product_item">
+                <div class="product_item-img">
+                  <img
+                    src="https://s3-alpha-sig.figma.com/img/0725/b41b/2c76aed644960a6054e9a33a36cd469c?Expires=1659312000&Signature=XK~0JJd1CRGwzHL66xxp4XBU19eYbaMBFo0LMWAH6r6Div0yetpqNXDDC18V1lT~IKoH3ShgkFxNjbzOqmu5CizfliS22AGAi6zuQXj~rtA8t3J81l7sOPG6luOobc48b5PUPa1IeBn74fRWMoNlN2lcQINsiRCQiWpbzIpUoPfNrGDx~7C7GdADXZmSNm8ZRU0qi0VVxLFwysxrrZphGKyFIAHnZTLFmSLh0Ld-g-kLYu7Zkqy2dyuy~KagG91U28jlkLrtQ-zgws9aD4dFKU3zl35aicxhyjaS0bf9syog1i3CUjirBB4sqtj6j-~coQ61wsGD5Puk~z5W09-NQg__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA"
+                    alt=""
+                  />
+                </div>
+                <h3>
+                  Plastic useless plugs and tubes for high-fidelity prototyping.
+                  Fit & Eat!
+                </h3>
+                <h1>$12.48</h1>
+                <span
+                  >Wordwide shitting available Buyers protection possible!</span
+                >
+                <div class="product_item-evaluate">
+                  <div class="product_item-vote">
+                    <div class="product_item-rating">
+                      <img src="./image/star.svg" alt="" srcset="" />
+                      <img src="./image/star.svg" alt="" srcset="" />
+                      <img src="./image/star.svg" alt="" srcset="" />
+                      <img src="./image/star.svg" alt="" srcset="" />
+                      <img
+                        class="star"
+                        src="./image/star1.svg"
+                        alt=""
+                        srcset=""
+                      />
+                    </div>
+                    <span>4.9</span>
+                  </div>
+                  <div class="product_item-watch btn btn-blue">
+                    <img src="./image/heart.svg" alt="" />
+                    <span>Watch</span>
+                  </div>
+                </div>
+              </div>
+              <div class="product_item">
+                <div class="product_item-img">
+                  <img
+                    src="https://s3-alpha-sig.figma.com/img/39d9/c39c/4373b9dba8e2d40ce2b960d876b722a0?Expires=1659312000&Signature=fnaO3rz7WpebmkaxnEnHrhmqb0zPyO~2kWLxT0Qs0Pc2Mzja8Rul23Y5~g-w0Zce4qhC-fKJAIDaCIF~1erv5wtfCmGBRf0MKqfbkAXSmb4wkvOKjhqfCQB2sunw5B-tkfjgYMsNI8Q5IS0EW1QPxyRDEs1xQJNiWv~GTv4PIImOP784YaJvURmqk8UV~Dr44Rkg32bant3dEYn6n~9MXmLpoZ6L6D0RzbxhHd91TBzFmGOpZg3z096oZmecnk6fL-rev0LDZNMcSYblODaaKdROGRHNstXZnVjEQfYD67aD0BlD4yPu3IlwMAyU~nPrBu6OFHK9ynszseSN~7Oc2g__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA"
+                    alt=""
+                  />
+                </div>
+                <h3>
+                  Plastic useless plugs and tubes for high-fidelity prototyping.
+                  Fit & Eat!
+                </h3>
+                <h1>$12.48</h1>
+                <span
+                  >Wordwide shitting available Buyers protection possible!</span
+                >
+                <div class="product_item-evaluate">
+                  <div class="product_item-vote">
+                    <div class="product_item-rating">
+                      <img src="./image/star.svg" alt="" srcset="" />
+                      <img src="./image/star.svg" alt="" srcset="" />
+                      <img src="./image/star.svg" alt="" srcset="" />
+                      <img src="./image/star.svg" alt="" srcset="" />
+                      <img
+                        class="star"
+                        src="./image/star1.svg"
+                        alt=""
+                        srcset=""
+                      />
+                    </div>
+                    <span>4.9</span>
+                  </div>
+                  <div class="product_item-watch btn btn-blue">
+                    <img src="./image/heart.svg" alt="" />
+                    <span>Watch</span>
+                  </div>
+                </div>
+              </div>
+              <div class="product_item">
+                <div class="product_item-img">
+                  <img
+                    src="https://s3-alpha-sig.figma.com/img/c6a1/1a47/3b8757d0afa244df46b6c375fe0f048b?Expires=1659312000&Signature=BWxGbQxHnzGdFeuCDVzi1xyMAJb0l1iQs~vbLIPUPEEEBqTHW2P8okXfJWk9tkCwmWGcugqZohpWxUWo9gLDw-08m0f4b~9nse2zj8MzTATNdf3apt0PpxDWAHjQFJkkL4GeTXQ7mcbIlEdS4J4imralvCbLZNea4O1QOV5xrQ0n3uSzE~qkspjGfBxreJ2Q~Ywfk3YQ-C8Z28cVUwuWbFlq901WEGyIS8LC~wSmup~aspTBrLf0PVXMKmPL-a70wfzCq499YY3NaadUNBDq5p3bASD4-Xyv-4oFqe8i3wPWyzKh08Px1peGwWv9BXTGVU8-RLaKBNADvHXzfD~eeQ__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA"
+                    alt=""
+                  />
+                </div>
+                <h3>
+                  Plastic useless plugs and tubes for high-fidelity prototyping.
+                  Fit & Eat!
+                </h3>
+                <h1>$12.48</h1>
+                <span
+                  >Wordwide shitting available Buyers protection possible!</span
+                >
+                <div class="product_item-evaluate">
+                  <div class="product_item-vote">
+                    <div class="product_item-rating">
+                      <img src="./image/star.svg" alt="" srcset="" />
+                      <img src="./image/star.svg" alt="" srcset="" />
+                      <img src="./image/star.svg" alt="" srcset="" />
+                      <img src="./image/star.svg" alt="" srcset="" />
+                      <img
+                        class="star"
+                        src="./image/star1.svg"
+                        alt=""
+                        srcset=""
+                      />
+                    </div>
+                    <span>4.9</span>
+                  </div>
+                  <div class="product_item-watch btn btn-blue">
+                    <img src="./image/heart.svg" alt="" />
+                    <span>Watch</span>
+                  </div>
+                </div>
+              </div>
+              <div class="product_item">
+                <div class="product_item-img">
+                  <img
+                    src="https://s3-alpha-sig.figma.com/img/a9b9/0f55/05ef7fbc98bd251ed8dc1f862b0c5cdd?Expires=1659312000&Signature=OAnfvj9IIfqOb7ntGRRe9ziMNuhHyX5AC52-WyBg0QpHWrP61vPZ44YLg2JoQ~9ngu53jFG1D~IvGBXeOfxDwM~lhpR4oLfW6EnsbUOXYd8d58dmI6lZIpIHka2EKifYhQHYTJ9-azv-83GlIACRf4Tvp105RgrZBow0jsTO1kBjYNsQmllGPVIKT7LC3chfxe-4HT6docASQN0g6-2XZLs6EbTjKoEKtExjEMLI173fSgm5yO8alfAyMuhopbeeR9zyIEZWCWb91VirXPapAGsI94LMZ-vRIWdPsExPxvkmob1MINGpJt3-9vGaniIBB7IgkRCMYCJ~S6VS-PeoBw__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA"
+                    alt=""
+                  />
+                </div>
+                <h3>
+                  Plastic useless plugs and tubes for high-fidelity prototyping.
+                  Fit & Eat!
+                </h3>
+                <h1>$12.48</h1>
+                <span
+                  >Wordwide shitting available Buyers protection possible!</span
+                >
+                <div class="product_item-evaluate">
+                  <div class="product_item-vote">
+                    <div class="product_item-rating">
+                      <img src="./image/star.svg" alt="" srcset="" />
+                      <img src="./image/star.svg" alt="" srcset="" />
+                      <img src="./image/star.svg" alt="" srcset="" />
+                      <img src="./image/star.svg" alt="" srcset="" />
+                      <img
+                        class="star"
+                        src="./image/star1.svg"
+                        alt=""
+                        srcset=""
+                      />
+                    </div>
+                    <span>4.9</span>
+                  </div>
+                  <div class="product_item-watch btn btn-blue">
+                    <img src="./image/heart.svg" alt="" />
+                    <span>Watch</span>
+                  </div>
+                </div>
+              </div>
+              <div class="product_item">
+                <div class="product_item-img">
+                  <img
+                    src="https://s3-alpha-sig.figma.com/img/ea46/183f/517982871b412ddc59c739450802b7df?Expires=1659312000&Signature=TEoS3mf1Qz76CUXfqyNwI0LQDU1~ZY1vd4ttHK7YHKf99E2leK-CiIRlpUQCG2PwC-3HumEyztXPeyH3rH2kCSsO3POsTSp3Wo432h8k8VLjkqcWzft~xRONZQ~YQE8S6EgLKQmYfmOxU1qxgoIJukrPylfv0mGe-Vm62FhWqz~J6svhcDMn~Riq7wY6A9M1~FrRmJWmNOk3ATs0AUDUAW1zm1dZvXUaomOlT1baqKWZhgKp5HFAwOXK~Wgc3Wqjnpc88mZxrmRsBEO9JIaQak9ifx8Rnj9DP9JDKUFjbLqAKwouF2yxL~QXzqq-EBjT3oVAXa7eufOmb-hzcD6PZQ__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA"
+                    alt=""
+                  />
+                </div>
+                <h3>
+                  Plastic useless plugs and tubes for high-fidelity prototyping.
+                  Fit & Eat!
+                </h3>
+                <h1>$12.48</h1>
+                <span
+                  >Wordwide shitting available Buyers protection possible!</span
+                >
+                <div class="product_item-evaluate">
+                  <div class="product_item-vote">
+                    <div class="product_item-rating">
+                      <img src="./image/star.svg" alt="" srcset="" />
+                      <img src="./image/star.svg" alt="" srcset="" />
+                      <img src="./image/star.svg" alt="" srcset="" />
+                      <img src="./image/star.svg" alt="" srcset="" />
+                      <img
+                        class="star"
+                        src="./image/star1.svg"
+                        alt=""
+                        srcset=""
+                      />
+                    </div>
+                    <span>4.9</span>
+                  </div>
+                  <div class="product_item-watch btn btn-blue">
+                    <img src="./image/heart.svg" alt="" />
+                    <span>Watch</span>
+                  </div>
+                </div>
+              </div>
+              <div class="product_item">
+                <div class="product_item-img">
+                  <img
+                    src="https://s3-alpha-sig.figma.com/img/68b1/0d6d/06dc2c8674b051300d0cfbe043ea3628?Expires=1659312000&Signature=cjDLdObRS-KnVme3npF7hIXqjY91~bm-epffZRUk-ivOkCQVBHrLHXXMXLUrV-kXbZwI7594fCaSnX0E2KP0eFqCWIJaRmgbkk1xQ3dHsn1ivQBsgt5tVFgdsHGxJbtT5z7zZhDCsUB20z1y8hSVGivimrmLEi4uhLC~Atm1Dgb9HPrZQiSx0QLzwJNtAH~7qrqhPnfi5-14UCcoj1I6Sl86adwzJrn6n8Vk~KbclAx-qzuJwUf6j0oX2JAnWFvnAONhmPn02KEMrDpcZ~emkBQp0O6U3ZdFddtKyaG8iVo11IRl8GkC2QR0xWatGJ-G6IqTE9mtIbChfPQ2yWc4jA__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA"
+                    alt=""
+                  />
+                </div>
+                <h3>
+                  Plastic useless plugs and tubes for high-fidelity prototyping.
+                  Fit & Eat!
+                </h3>
+                <h1>$12.48</h1>
+                <span
+                  >Wordwide shitting available Buyers protection possible!</span
+                >
+                <div class="product_item-evaluate">
+                  <div class="product_item-vote">
+                    <div class="product_item-rating">
+                      <img src="./image/star.svg" alt="" srcset="" />
+                      <img src="./image/star.svg" alt="" srcset="" />
+                      <img src="./image/star.svg" alt="" srcset="" />
+                      <img src="./image/star.svg" alt="" srcset="" />
+                      <img
+                        class="star"
+                        src="./image/star1.svg"
+                        alt=""
+                        srcset=""
+                      />
+                    </div>
+                    <span>4.9</span>
+                  </div>
+                  <div class="product_item-watch btn btn-blue">
+                    <img src="./image/heart.svg" alt="" />
+                    <span>Watch</span>
+                  </div>
+                </div>
+              </div>
+              <div class="product_item">
+                <div class="product_item-img">
+                  <img
+                    src="https://s3-alpha-sig.figma.com/img/3984/b71f/da978743af13b31f6844b8e110b2017f?Expires=1659312000&Signature=djBLioENadaq0vBDtMA7vG4FNypkPm0Lv5BSIYkST0hzhAiQogR1WRl1NR4~HoUHaj95YEZP8ju0L2pFEI1hfqJlVYc8tvzIz3y02BeNZoT7XJ8y44Sj163S27APaleSFhpO35-ebuzkO8qXxn90GV7h8NIks7q6n~fXlH9-nL6XE--6KjhQ-UVmF~sCku3vz18QL8X8wx2o0d1tWroR7Cv6McRG0PMVPwPMITjCgj4-Ace-a8n7x~cuMolWgJIyrvZClTt4GHrqX7eS-XulW1569qsnvh8pAiu78dGla-~Ps1xt-GQ1T3zsrvj0X2yTn62vD1~AhJJvqs2X7BP6zg__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA"
+                    alt=""
+                  />
+                </div>
+                <h3>
+                  Plastic useless plugs and tubes for high-fidelity prototyping.
+                  Fit & Eat!
+                </h3>
+                <h1>$12.48</h1>
+                <span
+                  >Wordwide shitting available Buyers protection possible!</span
+                >
+                <div class="product_item-evaluate">
+                  <div class="product_item-vote">
+                    <div class="product_item-rating">
+                      <img src="./image/star.svg" alt="" srcset="" />
+                      <img src="./image/star.svg" alt="" srcset="" />
+                      <img src="./image/star.svg" alt="" srcset="" />
+                      <img src="./image/star.svg" alt="" srcset="" />
+                      <img
+                        class="star"
+                        src="./image/star1.svg"
+                        alt=""
+                        srcset=""
+                      />
+                    </div>
+                    <span>4.9</span>
+                  </div>
+                  <div class="product_item-watch btn btn-blue">
+                    <img src="./image/heart.svg" alt="" />
+                    <span>Watch</span>
+                  </div>
+                </div>
+              </div>
+              <div class="product_item">
+                <div class="product_item-img">
+                  <img
+                    src="https://s3-alpha-sig.figma.com/img/b132/199c/c4009d0318aed0daab5de9842d6cdc33?Expires=1659312000&Signature=ZP4zNyTtpp~dck~9wivsluqqc-nXPI4mG30ewgM-wXeg1pFSanx~lATdypSAeHJqZpAO2rq6ScJnNwTkkagepgKLAvCqP1PJ9SO2SBgYf-ImF~KUsf8EiGKFF9ZFi3ymuJ8G7nmombEO5lrcOJJ8Lmn~bf6GUQx3hS-zVZveb9xeWAlSCEJj2bZlc79vz3Z4VCqNNgLlQ7SI26E964zzBAh-NOfzin3hpiNM4FFLeT0ayuYgTbBQ6GZpOeOpst7lOD252w3KYfJImAoU-GdcaF59WU8q1vLerh9W2uI0t9gkwQJAxe3X139Fr6G3CwBVduojDOVPHOX1pU~fgdd-2w__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA"
+                    alt=""
+                  />
+                </div>
+                <h3>
+                  Plastic useless plugs and tubes for high-fidelity prototyping.
+                  Fit & Eat!
+                </h3>
+                <h1>$12.48</h1>
+                <span
+                  >Wordwide shitting available Buyers protection possible!</span
+                >
+                <div class="product_item-evaluate">
+                  <div class="product_item-vote">
+                    <div class="product_item-rating">
+                      <img src="./image/star.svg" alt="" srcset="" />
+                      <img src="./image/star.svg" alt="" srcset="" />
+                      <img src="./image/star.svg" alt="" srcset="" />
+                      <img src="./image/star.svg" alt="" srcset="" />
+                      <img
+                        class="star"
+                        src="./image/star1.svg"
+                        alt=""
+                        srcset=""
+                      />
+                    </div>
+                    <span>4.9</span>
+                  </div>
+                  <div class="product_item-watch btn btn-blue">
+                    <img src="./image/heart.svg" alt="" />
+                    <span>Watch</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="container_right-bottom">
+            <div class="bottom_item">
+              <img src="./image/lightbulb-on-outline.svg" alt="" />
+              <h1 class="mg-10">Clear & Usable user flows</h1>
+              <span class="mg-10">Let’s boost yout marketplace</span>
+            </div>
+            <div class="bottom_item">
+              <img src="./image/auto-fix.svg" alt="" />
+              <h1 class="mg-10">Fine & Styled components</h1>
+              <span class="mg-10">Speed up with Setproduct templates</span>
+            </div>
+            <div class="bottom_item">
+              <img src="./image/Vector-2.svg" alt="" />
+              <h1 class="mg-10">Customizable & Reusable</h1>
+              <span class="mg-10">Take our UX patterns and rebuild</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./js/index.js"></script>
+  </body>
+</html>
